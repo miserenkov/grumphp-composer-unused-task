@@ -17,11 +17,11 @@
         }
     ],
     "require": {
-        "php": ">=7.4",
+        "php": "^7.4 || ^8.0",
         "icanhazstring/composer-unused": "^0.8.7",
         "phpro/grumphp": "^1.3.3",
-        "symfony/dependency-injection": "^5.4",
-        "symfony/options-resolver": "^5.4"
+        "symfony/dependency-injection": "^5.4 || ^6.0",
+        "symfony/options-resolver": "^5.4 || ^6.0"
     },
     "require-dev": {
         "enlightn/security-checker": "^1.10",
